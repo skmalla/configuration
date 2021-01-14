@@ -1,0 +1,80 @@
+.textareaField {
+  width: 100% !important;
+}
+
+select {
+  -webkit-appearance: menulist;
+}
+
+th {
+  color: #00aff7;
+  font-size: 1.1vw;
+}
+
+.table-header {
+  background-color: #f0f8ff;
+}
+
+.deleteBtn {
+  color: #00aff7;
+  font-size: 2vw !important;
+  cursor: pointer;
+  float: none;
+}
+
+.deleteBtn:hover {
+  color: rgb(240, 160, 176);
+}
+
+.plusIconConfig {
+  float: none;
+  font-size: 2.1vw !important;
+}
+
+.tip:hover {
+  cursor: help;
+  position: relative;
+}
+
+.tip marquee {
+  display: none;
+}
+
+.tip:hover marquee {
+  padding: 8px 15px 8px 15px;
+  display: block;
+  width: 250px;
+  position: absolute;
+  top: 5px;
+  right: 20px;
+  text-decoration: none;
+  background-color: #98abe4;
+  border: 1px solid rgb(159, 148, 255);
+  text-align: center;
+  font-weight: bold;
+  font-size: 12px;
+  border-radius: 40px;
+  box-shadow: 0px 3px 16px rgba(197, 63, 250, 0.651);
+  opacity: 0.9;
+}
+
+#cloud {
+  width: 220px;
+  padding-left: 30px;
+  /*animation: slide 0.1s infinite;
+  -moz-animation: slide 0.1s infinite;
+  -webkit-animation: slide 0.1s infinite;
+  -o-animation: slide 0.1s infinite;*/
+}
+
+#cloud span {
+  color: #ffffff;
+  font-size: 1vw;
+  /*animation: blink 0.2s linear infinite;*/
+}
+
+.configbtn {
+  padding: 10px !important;
+  width: 15%;
+  font-size: 1.1vw !important;
+}
